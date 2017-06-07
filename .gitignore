@@ -1,4 +1,7 @@
-node_modules
-npm-debug.log
-app/*/*/*.map
-settings.json
+logs/*
+!.gitkeep
+node_modules/
+bower_components/
+tmp
+.DS_Store
+.idea

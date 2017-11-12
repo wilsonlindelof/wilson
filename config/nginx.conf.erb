@@ -58,7 +58,17 @@ http {
 		}
 		
 		location /css {
-			root /app/cssscene;
+			root /app/cssscene/;			
+		}
+		
+		location /demostuff {
+			rewrite ^/demostuff(/.*)$ demo$1 last
+		}
+		
+		location /images {
+			if ($request_uri ~* "/images/(.*)") { 
+				proxy_pass  https://wilsonlindelof.herokuapp.com/assets/$1;
+			}  
 		}
 	}
 }

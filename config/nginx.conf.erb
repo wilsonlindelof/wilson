@@ -58,11 +58,11 @@ http {
 		}
 		
 		location /css {
-			root /app/nginxcontent/;			
+			root /app/nginxcontent/css;			
 		}
 		
 		location /images {
-			root /app/nginxcontent/;			
+			return	301 https://wilsonlindelof.herokuapp.com:<%= ENV["PORT"] %>$request_uri;		
 		}
 		
 	}

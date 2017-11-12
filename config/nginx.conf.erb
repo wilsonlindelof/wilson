@@ -42,7 +42,7 @@ http {
 		
 		location / {
 		
-			root /app/home;
+			root /app/nginxcontent/home;
 			
 			#proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
 			#proxy_set_header Host $http_host;
@@ -58,17 +58,12 @@ http {
 		}
 		
 		location /css {
-			root /app/cssscene/;			
-		}
-		
-		location /demostuff {
-			rewrite ^/demostuff(/.*)$ demo$1 last;
+			root /app/nginxcontent/;			
 		}
 		
 		location /images {
-			if ($request_uri ~* "/images/(.*)") { 
-				proxy_pass  https://wilsonlindelof.herokuapp.com/assets/$1;
-			}  
+			root /app/nginxcontent/;			
 		}
+		
 	}
 }

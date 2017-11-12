@@ -1,3 +1,3 @@
 <?php 
-header( "Location: ./fartyfarty.html" ) ; 
+header( "Location: ./nginxherokuhack.html" ) ; 
 ?>

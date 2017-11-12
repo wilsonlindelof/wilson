@@ -1,0 +1,137 @@
+body {
+	margin: 0px;
+}
+
+.world {
+	height: 100vh;
+}
+
+.vertical-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.horizontal-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.ocean {
+	background: blue;
+	width: 100%;
+	height: 30vh;
+}
+
+.sky {
+	background: #10144d;
+	width: 100%;
+	height: 70vh;
+}
+
+.sky-strip-1 {
+	background: #484ba1;
+	background: -webkit-linear-gradient(#10144d, #484ba1);
+    background: -o-linear-gradient(#10144d, #484ba1);
+    background: -moz-linear-gradient(#10144d, #484ba1);
+    background: linear-gradient(#10144d, #484ba1);
+	width: 100%;
+	height: 10vh;
+}
+
+.sky-strip-2 {
+	background: #8071c7;
+	background: -webkit-linear-gradient(#484ba1, #8071c7);
+    background: -o-linear-gradient(#484ba1, #8071c7);
+    background: -moz-linear-gradient(#484ba1, #8071c7);
+    background: linear-gradient(#484ba1, #8071c7);
+	width: 100%;
+	height: 10vh;
+}
+
+.sky-strip-3 {
+	background: #cf9dcc;
+	background: -webkit-linear-gradient(#8071c7, #cf9dcc);
+    background: -o-linear-gradient(#8071c7, #cf9dcc);
+    background: -moz-linear-gradient(#8071c7, #cf9dcc);
+    background: linear-gradient(#8071c7, #cf9dcc);
+	width: 100%;
+	height: 10vh;
+}
+
+.sky-strip-4 {
+	background: #fab4c3;
+	background: -webkit-linear-gradient(#cf9dcc, #fab4c3);
+    background: -o-linear-gradient(#cf9dcc, #fab4c3);
+    background: -moz-linear-gradient(#cf9dcc, #fab4c3);
+    background: linear-gradient(#cf9dcc, #fab4c3);
+	width: 100%;
+	height: 10vh;
+}
+
+.sky-strip-5 {
+	background: #ffdf9e;
+	background: -webkit-linear-gradient(#fab4c3, #ffdf9e);
+    background: -o-linear-gradient(#fab4c3, #ffdf9e);
+    background: -moz-linear-gradient(#fab4c3, #ffdf9e);
+    background: linear-gradient(#fab4c3, #ffdf9e);
+	width: 100%;
+	height: 10vh;
+}
+
+.sky-strip-6 {
+	background: #fff642;
+	background: -webkit-linear-gradient(#ffdf9e, #fff642);
+    background: -o-linear-gradient(#ffdf9e, #fff642);
+    background: -moz-linear-gradient(#ffdf9e, #fff642);
+    background: linear-gradient(#ffdf9e, #fff642);
+	width: 100%;
+	height: 10vh;
+}
+
+.sky-strip-7 {
+	background: #faa80f;
+	background: -webkit-linear-gradient(#fff642, #faa80f);
+    background: -o-linear-gradient(#fff642, #faa80f);
+    background: -moz-linear-gradient(#fff642, #faa80f);
+    background: linear-gradient(#fff642, #faa80f);
+	width: 100%;
+	height: 10vh;
+}
+
+.ocean-strip-1 {
+	background: #663145;
+	background: -webkit-linear-gradient(#663145, #966270);
+    background: -o-linear-gradient(#663145, #966270);
+    background: -moz-linear-gradient(#663145, #966270);
+    background: linear-gradient(#663145, #966270);
+	width: 100%;
+	height: 3vh;
+}
+
+.ocean-strip-2 {
+	background: #f7825c;
+	background: -webkit-linear-gradient(#966270, #f7825c);
+    background: -o-linear-gradient(#966270, #f7825c);
+    background: -moz-linear-gradient(#966270, #f7825c);
+    background: linear-gradient(#966270, #f7825c);
+	width: 100%;
+	height: 3vh;
+}
+
+.ocean-strip-3 {
+	background: #e87b54;
+	background: -webkit-linear-gradient(#f7825c, #e87b54);
+    background: -o-linear-gradient(#f7825c, #e87b54);
+    background: -moz-linear-gradient(#f7825c, #e87b54);
+    background: linear-gradient(#f7825c, #e87b54);
+	width: 100%;
+	height: 15vh;
+}
+
+.land-strip {
+	background: #080400;
+	width: 100%;
+	height: 9vh;
+}

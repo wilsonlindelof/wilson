@@ -62,7 +62,7 @@ http {
 		}
 		
 		location /demostuff {
-			rewrite ^/demostuff(/.*)$ demo$1 last
+			rewrite ^/demostuff(/.*)$ demo$1 last;
 		}
 		
 		location /images {
